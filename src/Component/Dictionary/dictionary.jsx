@@ -46,8 +46,8 @@ function Dictionary() {
         <button type="submit" onClick={handleSubmit}>Search</button>
     
       <div>
-        <h5>Definition: {suggestion && <p>{suggestion}</p>}</h5>
-        
+        <h5>Definition:</h5>
+        {suggestion && <p>{suggestion}</p>}
       </div>
     </div>
   );
